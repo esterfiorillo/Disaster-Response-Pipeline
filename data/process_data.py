@@ -17,8 +17,8 @@ def load_and_merge (csv1, csv2):
 	"""
 
 	#read csvs
-	messages = pd.read_csv("messages.csv")
-	categories = pd.read_csv("categories.csv")
+	messages = pd.read_csv(csv1)
+	categories = pd.read_csv(csv2)
 
 	#merge datasets
 	df = messages.merge(categories, how='inner', on='id')
