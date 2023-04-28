@@ -56,6 +56,8 @@ def prepare (df):
 	#Remove duplicates
 	df = df.drop_duplicates()
 
+	df[df['related'] == 2] = 1
+
 	return df 
 
 def save (df, database_file):
