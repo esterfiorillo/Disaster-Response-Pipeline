@@ -41,6 +41,13 @@ Once you have done the steps above, you will visualize the web page:
 There you can type a message, and than you can see the classification of this message.
 Besides this, there are tree visualizations, where you can see the Categories Distribution in witch of the genres news, direct and social.
 
+
+![pag2](images/pag2.png)
+
+![pag3](images/pag3.png)
+
+![pag4](images/pag4.png)
+
 ### Acknowledgements
 I would like to thank Udacity for the Data Scientist program and to Figure Eight for providing the dataset. Feel free to use the analysis!
 
